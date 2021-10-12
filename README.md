@@ -22,6 +22,8 @@ This will fire up the worldserver and whenever it gives any exit code the script
 
 By default I have added a custom exit code "15", if you want to add your own custom exit codes and change what should happen you only need to make a new `if %errorlevel% == your_exit_code` and then add what should happen within.
 
+You can learn more about ExitCodes in AzerothCore [here](https://www.azerothcore.org/wiki/exitcodes).
+
 ## Exit Codes
 
 By default these are the exit codes:
